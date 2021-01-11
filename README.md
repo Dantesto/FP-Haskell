@@ -1,8 +1,7 @@
-# FP-Haskell
-## Homework
+# Homework
 
 40+ various Haskell study tasks that I spent ~80 hours on.
-## Coursework
+# Coursework
 
 I spent ~16 hours on.
 
