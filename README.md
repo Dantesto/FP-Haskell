@@ -15,11 +15,11 @@ Features of the parser:
 * constants pi, e
 * variable x, whose value must be set separately
 * ignores whitespaces
-* error handling
+* error handling.
 
 Easy to add the following features:
 * since the parser calculates as 1 + 2 + 3 = 1 + (2 + 3), binary operators that execute "right-to-left" and symmetric operators
 * any unary operators
 * functions of one (and several too) variable
 * any constants
-* support of more than one variable
+* support of more than one variable.
