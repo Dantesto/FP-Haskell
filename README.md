@@ -7,6 +7,8 @@ I spent ~16 hours on.
 
 Arithmetic parser that is capable of calculating values of expressions.
 
+To start the program, call the "calculator" function, which works interactively and ends when you type "q" instead of expression.
+
 Features of the parser:
 * binary operators +, -, *, /, ^;
 * unary operators +, -;
