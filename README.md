@@ -3,15 +3,13 @@
 40+ various Haskell study tasks that I spent ~80 hours on.
 # Coursework
 
-About ver.3 (final).
-
 I spent ~24 hours on.
 
 Arithmetic parser that is capable of calculating values of expressions.
 
 To start the program, call the "calculator" function, which works interactively and ends when you type "q" instead of expression.
 
-Features of the parser:
+Features of the parser (ver.3):
 * binary operators +, -, *, /, ^;
 * unary operators +, -;
 * parentheses;
