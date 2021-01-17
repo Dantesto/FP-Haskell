@@ -39,7 +39,7 @@ rightAssociative = 3
 minPrecedence = 3 :: Int
 
 plus = Operator "+" 3 associative
-minus = Operator "-" 3 associative
+minus = Operator "-" 3 leftAssociative
 multiplicate = Operator "*" 2 associative
 divide = Operator "/" 2 leftAssociative
 power = Operator "^" 1 rightAssociative
@@ -54,12 +54,12 @@ isParenthesis (Parenthesis _) = True
 isParenthesis _ = False
 
 isUnaryOperator :: Token -> Bool
-isUnaryOperator (Operator "+" _ _ _) = True --why compiler says "isUnaryOperator plus" and "isUnaryOperator minus" are same?
-isUnaryOperator (Operator "-" _ _ _) = True --but know it works
+isUnaryOperator (Operator "+" _ _) = True --why compiler says "isUnaryOperator plus" and "isUnaryOperator minus" are same?
+isUnaryOperator (Operator "-" _ _) = True --but know it works
 isUnaryOperator _ = False
 
 isOperator :: Token -> Bool
-isOperator (Operator _ _ _ _) = True
+isOperator (Operator _ _ _) = True
 isOperator _ = False
 
 isFunction :: Token -> Bool
