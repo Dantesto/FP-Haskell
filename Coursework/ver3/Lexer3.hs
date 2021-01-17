@@ -54,8 +54,8 @@ isParenthesis (Parenthesis _) = True
 isParenthesis _ = False
 
 isUnaryOperator :: Token -> Bool
-isUnaryOperator (Operator "+" _ _) = True --why compiler says "isUnaryOperator plus" and "isUnaryOperator minus" are same?
-isUnaryOperator (Operator "-" _ _) = True --but know it works
+isUnaryOperator (Operator "+" _ _) = True
+isUnaryOperator (Operator "-" _ _) = True
 isUnaryOperator _ = False
 
 isOperator :: Token -> Bool
