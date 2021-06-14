@@ -1,6 +1,6 @@
 # Homework
 
-40+ various Haskell study tasks that I spent ~80 hours on.
+40+ various Haskell study tasks that I spent ~80 hours on. Tasks - https://github.com/GrandArchTemplar/Fp2020R3495/blob/main/hw1.md.
 # Coursework
 
 I spent ~24 hours on.
